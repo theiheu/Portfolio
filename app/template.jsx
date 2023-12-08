@@ -5,7 +5,7 @@ import useScrollProgress from "@/hooks/useScrollProgress";
 
 const variants = {
   hidden: { opacity: 0 },
-  enter: { epacity: 1 },
+  enter: { opacity: 1 },
 };
 
 const Template = ({ children }) => {
