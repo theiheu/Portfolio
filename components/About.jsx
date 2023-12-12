@@ -253,11 +253,11 @@ const About = () => {
                   </div>
                 </TabsContent>
                 <TabsContent value="skills">
-                  <div className="text-center xl:text-left">
+                  <div className="text-left">
                     <h3 className="h3 mb-8">Tools I Use Everyday</h3>
                     {/* skill list */}
                     <div className="mb-16">
-                      <h4 className="text-x1 font-semibold mb-2">Skills</h4>
+                      <h4 className="text-xl font-semibold mb-2">Skills</h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* skill list */}
                       <div>
