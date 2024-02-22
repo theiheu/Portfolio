@@ -15,8 +15,11 @@ const page = () => {
             </div>
             <h1>Let's Work Together.</h1>
             <p className="subtitle max-w-[400px]">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod,
-              sed.
+              I am a freelance programmer passionate about technology, always
+              seeking opportunities to develop myself in the field of web
+              development. With a strong passion for my work, I am constantly
+              exploring and learning the latest technologies to enhance my
+              skills and knowledge..
             </p>
           </div>
           {/* illustration */}

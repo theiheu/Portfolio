@@ -15,15 +15,15 @@ const icons = [
     name: <RiYoutubeFill />,
   },
   {
-    path: "/",
+    path: "",
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/theiheu",
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://www.facebook.com/thehieu236/",
     name: <RiFacebookFill />,
   },
   {
@@ -37,7 +37,7 @@ const Socials = ({ containerStyles, iconsStyles }) => {
     <div className={`${containerStyles}`}>
       {icons.map((icon, index) => {
         return (
-          <Link href={icon.path} key={index}>
+          <Link target="_blank" href={icon.path} key={index}>
             <div className={`${iconsStyles}`}>{icon.name}</div>
           </Link>
         );

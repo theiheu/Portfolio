@@ -143,12 +143,12 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Unmatched Service Quality for Over 21 Years
+                      Always seeking opportunities to learn and improve skills.
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      I specialize in crafting intuitive websites with
-                      cutting-edge technology, delivering dynamic and engaging
-                      user experiences.
+                      With a strong passion for my work, I am constantly
+                      exploring and learning the latest technologies to enhance
+                      my skills and knowledge.
                     </p>
                     {/* icon */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -163,14 +163,6 @@ const About = () => {
                           </div>
                         );
                       })}
-                    </div>
-                    {/* languages */}
-                    <div className="flex flex-col gap-y-2">
-                      <div className="flex flex-col gap-y-2">
-                        Language Skill
-                      </div>
-                      <div className="border-b border-border"></div>
-                      <div>English (Basic)</div>
                     </div>
                   </div>
                 </TabsContent>
@@ -254,7 +246,6 @@ const About = () => {
                 </TabsContent>
                 <TabsContent value="skills">
                   <div className="text-left">
-                    <h3 className="h3 mb-8">Tools I Use Everyday</h3>
                     {/* skill list */}
                     <div className="mb-16">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
@@ -283,6 +274,16 @@ const About = () => {
                         )}
                       </div>
                     </div>
+
+                    {/* languages */}
+                    <div className="flex flex-col gap-y-2 mb-5">
+                      <div className="text-xl font-semibold mb-2 xl:text-left">
+                        Language Skill
+                      </div>
+                      <div className="border-b border-border"></div>
+                      <div>English (Basic)</div>
+                    </div>
+
                     {/* tools */}
                     <div>
                       <h4 className="text-xl font-semibold mb-2 xl:text-left">
