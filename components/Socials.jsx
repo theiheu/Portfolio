@@ -11,7 +11,7 @@ import {
 
 const icons = [
   {
-    path: "/",
+    path: "https://www.youtube.com/channel/UCCsfAUL1UIRPHkW-RbTaQnw",
     name: <RiYoutubeFill />,
   },
   {

@@ -17,7 +17,7 @@ const projectData = [
     description:
       "Book Store is a website for a company that provides online courses. It is built with React JS, Ant Design, Redux",
     link: "https://book-store-lth-reactjs.vercel.app/",
-    youtube: "https://www.youtube.com/channel/UCCsfAUL1UIRPHkW-RbTaQnw",
+    youtube: "https://youtu.be/qxj2WATWL5M?si=8ShCQbbLo0FneydN",
     github: "https://github.com/theiheu/Web-E-Commerce-ReactJS",
   },
   {
